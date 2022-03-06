@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    background-color: #ededed;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    margin: 0;
+    padding: 25px 30px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.logo-img{
+    width: 40px;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #000;
+}
+.nav__link{
+    margin: 0 50px; 
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nav__link:hover{
+    opacity: 0.8;
+}
+.cart__widget a,
+.cart__widget span{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu__phone{
+    display: none;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main{
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1% 5%;
+    margin: 40px 30px;
+    box-shadow: 0 0 10px #ccc;
+    min-height: 46vh;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.catalog__product{
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.catalog__product-image{
+    max-width: 90%;
+    height: 125px;
+    margin: 5px 0;
+
+}
+.catalog__product-title a{
+    display: block;
+    min-height: 140px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+.catalog__product-price{
+    margin: 10px 0;
+    font-size: 24px;
+}
+.catalog__btn_product_add,
+.product__btn_add{
+    background-color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.catalog__btn_product_add--added{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.cart__list{
+    margin-top: 30px;
+}
+
+
+.cart__product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom:   solid rgb(0, 0, 0);
+}
+.cart__product_image,
+.cart__product_title,
+.cart__product_quantity,
+.cart__product_price,
+.cart__product_total{
+    padding: 10px;
+}
+
+.cart__product_image{
+    height: 40px;
+    width: 40px;
+}
+
+.cart__product_title{
+    font-size: 18px;
+    width: 500px;
+}
+
+.cart__product_quantity{
+    margin-left: auto;
+    width: 40px;
+    padding: 10px;
+}
+
+.cart__product_price,
+.cart__product_total{
+    width: 70px;
+}
+.cart__empty{
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 1.8px;
+    font-size: 32px;
+}
+.about__paragraph{
+    margin: 10px 0px;
+    color: #000;
+    font-weight: 500;
+
+}
+.product__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 50px;
+}
+.product__description_wrapper{
+    width: 60%;
+}
+
+.product__image{
+    width: 250px;
+}
+
+.product__category{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: right;
+    margin: 15px;
+}
+.product__description{
+    font-size: 20px;
+}
+
+.product__price{
+    margin: 30px 0;
+    text-align: right;
+    font-size: 24px;
+}
+.product__btn_add{
+    display: block;
+    margin: 0 auto;
+}
+.footer{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 25px 30px;
+    color: #fff;
+}
+
+.footer__contact{
+    list-style-type: none;
+}
+.footer__contact li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.footer__img{
+    width: 30px;
+    margin-right: 15px;
+}
+
+
+.footer__logo-img{
+    width: 60px;
+}
